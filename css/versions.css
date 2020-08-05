@@ -1,0 +1,488 @@
+/*------------------------------------------------------------------
+    Version: 1.0
+-------------------------------------------------------------------*/
+
+/*JL NOTE: This file is important for colours and such!!*/
+/*Includes colour changing for "scroll to top" icon*/
+
+/*------------------------------------------------------------------
+    [Table of contents]
+
+    1. DEFAULT VERSION (Check style.css and colors.css)
+    2. HOSTING VERSION
+    3. SEO VERSION
+    4. WATCH VERSION
+    5. APP VERSION
+    6. CLINIC VERSION
+    7. REAL ESTATE VERSION
+    8. POLITICS VERSION
+    9. BARBER VERSION
+    10. BUILDING VERSION
+
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+   SEO MARKETING VERSION
+-------------------------------------------------------------------*
+
+/**************************************
+GRADIENTS 
+**************************************/
+
+body.new_version .btn-buy:hover,
+body.new_version .cac:hover,
+body.new_version .icon_wrap:hover,
+body.new_version .nav-pills > li.active > a,
+body.new_version .nav-pills > li.active > a:focus,
+body.new_version .nav-pills > li.active > a:hover,
+body.new_version .icon-wrapper:hover i,
+body.new_version .grd1 {
+    color: #ffffff;
+    background: #a799c0;    
+}
+
+
+body.new_version .dmtop:hover,
+body.new_version .features-right li:hover i,
+body.new_version .features-left li:hover i,
+body.new_version .nav-pills > li:hover > a,
+body.new_version .nav-pills > li:focus > a,
+body.new_version .nav-pills > li.active > a,
+body.new_version .nav-pills > li.active > a:focus,
+body.new_version .nav-pills > li.active > a:hover,
+body.new_version .divider-bar,
+body.new_version .icon-wrapper:hover i:hover,
+body.new_version .grd1:hover,
+body.new_version .grd1:focus {
+    background-position: 100px;
+    color: #ffffff;    
+    background: #b5a7ce;
+    /*This ^^ changes colour of "back to top" icon upon hover*/
+}
+
+body.new_version .icon_wrap{
+	background-color: #8a7da1;
+}
+
+
+body.new_version .navbar-nav span {
+    color: #ffda44 !important;
+}
+
+body.new_version .seo-services .col-md-3:hover img {
+    border-color: #333333;
+}
+
+body.new_version .owl-next:hover i,
+body.new_version .owl-prev:hover i{
+	background: #a799c0;	
+	color: #333333;
+}
+
+
+/**************************************
+OTHERS 
+**************************************/
+
+body.new_version #clouds {
+    z-index: 1;
+    bottom: 0;
+    position: relative;
+}
+
+body.new_version #clouds path {
+    fill: #ffffff;
+    bottom: -10px;
+    position: absolute;
+    overflow: hidden;
+    stroke: #ffffff;
+}
+
+body.new_version #clouds1 {
+    z-index: 1;
+    bottom: 0;
+    position: relative;
+}
+
+body.new_version #clouds1 path {
+    fill: #ffffff;
+    bottom: -10px;
+    position: absolute;
+    overflow: hidden;
+    stroke: #ffffff;
+}
+
+body.new_version .app_iphone_02 {
+    width: 700px;
+    position: absolute;
+    right: 0%;
+    bottom: -16%;
+    z-index: 1;
+}
+
+body.new_version .affix,
+body.new_version .cac {
+    background-color: #121212;
+}
+
+body.new_version .section.db,
+body.new_version .dmtop,
+body.new_version .dmtop,
+body.new_version .affix {
+    background-color: #8a7da1;
+    /*This ^^ changes colour of "scroll to top" icon*/
+}
+
+
+body.new_version .footer-distributed form input {
+    background-color: #f2f3f5;
+}
+
+body.new_version .btn-light {
+    color: #ffffff;
+    opacity: 1;
+}
+
+body.new_version .btn-light i {
+    margin-right: 5px;
+    vertical-align: middle;
+	font-size: 22px;
+}
+
+body.new_version .effect-1:after {
+    box-shadow: 0 0 0 2px #121212;
+}
+
+body.new_version .footer a,
+body.new_version .cac a h3,
+body.new_version .footer-distributed form input,
+
+body.new_version .footer {
+    color: #736e78;
+}
+
+body.new_version .footer-distributed .footer-company-name{
+	color: #ffffff;
+}
+
+body.new_version .footer-distributed form input::-webkit-input-placeholder {
+    color: #736e78;
+}
+
+body.new_version .footer-distributed form input::-moz-placeholder {
+    opacity: 1;
+    color: #736e78;
+}
+
+body.new_version .footer-distributed form input:-ms-input-placeholder {
+    color: #736e78;
+}
+
+body.new_version .noover {
+    overflow: hidden;
+}
+
+body.new_version .noover i {
+    font-size: 34px;
+    vertical-align: middle;
+    color: #ffffff !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+body.new_version .noover p {
+    color: rgba(255, 255, 255, 1) !important;
+}
+
+
+
+body.new_version .contact_form {
+    background-color: #ffffff;
+}
+
+body.new_version .owl-next i,
+body.new_version .owl-prev i {
+    background-color: #a799c0;
+	color: #ffffff;
+}
+
+body.new_version .header_style_01 {
+    top: 0;
+}
+
+body.new_version .stat-wrap .alignleft {
+    margin-right: 20px;
+}
+
+body.new_version .stat-wrap h3 {
+    color: #121212;
+    display: block;
+    margin-top: 10px !important;
+}
+
+body.new_version .stat-wrap .rating i {
+    color: #eabe12;
+}
+
+body.new_version .stat-wrap p {
+    color: #121212;
+    font-size: 38px;
+    font-weight: bold;
+    margin: 0;
+    padding: 15px 0 0;
+    line-height: 1;
+}
+
+body.new_version .service-widget h3 {
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+
+body.new_version .service-widget small {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+body.new_version .section.db .section-title h2 {
+    color: rgba(255, 255, 255, 0.7) !important;
+    padding: 0;
+    letter-spacing: 2px;
+    margin: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+body.new_version .message-box h2,
+body.new_version .section .section-title h3 {
+    font-weight: bold;
+}
+
+body.new_version .message-box h4,
+body.new_version .section-title small {
+    font-size: 15px;
+    color: #999;
+    letter-spacing: 1px;
+    padding-bottom: 0px;
+    display: block;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+body.new_version .apple-button a,
+body.new_version .cac a h3,
+body.new_version .section.db .section-title .lead {
+    color: #ffffff !important;
+}
+
+body.new_version .apple-button {
+    line-height: 1;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    padding: 30px 20px;
+    border-radius: 8px;
+}
+
+body.new_version .apple-button i {
+    margin: -5px 20px;
+    vertical-align: middle;
+    font-size: 64px;
+}
+
+body.new_version .apple-button {
+    font-size: 21px;
+    font-weight: 300;
+}
+
+body.new_version .apple-button strong {
+    line-height: 1;
+    margin-top: 5px;
+    text-transform: uppercase;
+    font-size: 31px;
+    display: block;
+}
+
+body.new_version .dev-list .widget p {
+    margin: 0;
+    padding: 5px 0 15px;
+}
+
+body.new_version .dev-list img {
+    width: 100%;
+}
+
+body.new_version .footer-social .btn {
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 33px;
+    text-align: center;
+    margin: 0 3px;
+    border: 1px solid #e80d45 !important;
+    color: #ffffff;
+    background-color: #e80d45 !important;
+}
+
+body.new_version .dev-list .widget {
+    padding: 30px;
+    border: 1px solid #ededed;
+}
+
+body.new_version .dev-list .widget h3 {
+    font-size: 21px;
+    padding: 0 0 5px;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+body.new_version .dev-list .widget-title {
+    padding: 20px 0 10px;
+    margin: 0;
+    line-height: 1 !important;
+}
+
+body.new_version .iphones {
+    width: 1080px;
+    position: absolute;
+    right: -20%;
+    bottom: -16%;
+    z-index: 0;
+}
+
+
+
+body.new_version .seo-services p.lead {
+    margin-bottom: 0;
+    padding-bottom: 0;
+	font-size: 16px;
+}
+
+body.new_version .how-its-work .hc h2 {
+    font-size: 64px;
+    display: block;
+    padding: 0 0 0 30px;
+    margin: 0 0 15px;
+    line-height: 1 !important;
+    border-left: 1px dashed rgba(255, 255, 255, 0.4);
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+body.new_version .how-its-work .hc p {
+    font-size: 21px;
+    font-weight: 300;
+    color: #ffffff !important;
+}
+
+body.new_version .how-its-work .hc p.lead {
+    font-size: 15px;
+    font-weight: 400;
+    color: #ffffff !important;
+}
+
+body.new_version .hc.colon1 {
+    background-color: #a799c0;
+}
+
+body.new_version .hc.colon2 {
+    background-color: #a799c0;
+}
+
+body.new_version .hc.colon3 {
+    background-color: #a799c0;
+}
+
+body.new_version .hc.colon4 {
+    background-color: #a799c0;
+}
+
+body.new_version .app-features li {
+    border-bottom: 1px dashed #ddd;
+    padding-bottom: 30px;
+}
+
+body.new_version .app-features li:last-child {
+    border-bottom: 0 dashed #efefef;
+    padding-bottom: 0px;
+}
+
+body.new_version .entry {
+    position: relative;
+    padding: 0 !important;
+    margin-bottom: 0;
+    overflow: hidden;
+}
+
+body.new_version .first-section {
+    padding: 14em 0 10em;
+}
+
+body.new_version .first-section h2 {
+    color: #ffffff;
+    display: block;
+    font-size: 56px;
+    font-weight: bold;
+}
+
+body.new_version .magnifier {
+    position: absolute;
+    top: 0;
+    cursor: pointer !important;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#000000+0,000000+100&0.65+0,0+100;Neutral+Density */
+    background-color: rgba(0, 0, 0, 0.8);
+    left: 500px;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    zoom: 1;
+    cursor: crosshair;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+body.new_version .entry:hover .magnifier {
+    zoom: 1;
+    left: 0;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+body.new_version .owl-app {
+    position: relative;
+    overflow: hidden;
+    background-color: #fff;
+    height: 600px;
+    margin: 0 auto;
+    z-index: 1;
+    width: 300px;
+}
+
+body.new_version .owl-app::before {
+    background: url("../images/phonebg.png") no-repeat scroll center center;
+    content: "";
+    height: 600px;
+    padding: 0;
+    overflow: hidden;
+    position: absolute;
+    width: 300px;
+    z-index: 1;
+}
+
+body.new_version .owl-phone {
+    overflow: hidden;
+    background-color: #111;
+    margin: 70px auto 0;
+    height: 449px;
+    display: block;
+    z-index: 2;
+    text-align: center;
+    width: 272px !important;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
