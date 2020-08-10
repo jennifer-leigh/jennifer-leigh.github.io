@@ -445,8 +445,8 @@ a img.aligncenter {
 }
 
 .top-navbar .bg-light{
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 20px;
 	box-shadow: 0 0 18px 0 rgba(0,0,0,.12);
 }
 
@@ -527,7 +527,7 @@ a img.aligncenter {
 /*Need to check text colour of dropdown menu somewhere around here*/
 
 .top-navbar.fixed-menu .bg-light{
-	position: fixed;
+	position: relative; /*Set as "fixed" to add sticky header*/
 	top: 0;
 	width: 100%;
 	z-index: 9999;
@@ -2716,6 +2716,7 @@ body.new_version .footer-links a:hover{
 }
 
 .page-info{
+    opacity: 1;
 	text-align: center;
 	margin-bottom: 20px;
 }
@@ -2871,9 +2872,158 @@ body.new_version .footer-links a:hover{
 
 
 
+/**           Blog Post Structure           **/
 
+.author-date{
+    display: block;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
 
+.author-date p {
+    color: #8d8d8d;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    margin: 0;
+}
 
+.blog-page-title{
+	background-size: cover;
+	background-color: #a799c0;
+	background-repeat: no-repeat;
+	padding: 160px 0px 110px 0px;
+	background-position: center bottom;
+}
 
+#blog-title-box{
+    background-color: rgba(0, 0, 0, 0.45) ;
+    padding: 10px ;
+}
 
+.blog-page-title h1{
+	position: relative;
+	font-size: 36px;
+	font-weight: 700;
+	color: #ffffff;
+	text-align: center;
+	line-height: 1.3em;
+	margin-bottom: 0px;
+	text-transform: capitalize;
+}
 
+.blog-page-title p{
+	color: #ffffff;
+	font-size: 18px;
+}
+
+.blog-article{
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.blog-main-text h2{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #8a7da1;
+}
+
+.blog-main-text blockquote{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 24px;
+    border-left: 10px solid #cac5d3;
+}
+
+.blog-main-text blockquote::before{
+    color: #b1a2ca;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.1em;
+    vertical-align: -0.4em;
+}
+
+.blog-main-text blockquote p{
+    display: inline;
+    color: #8b8b8b;
+}
+
+.blog-main-text cite a{
+    color: #a799c0
+}
+
+.blog-first-paragraph p{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #8a7da1;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.blog-main-text .smallquote{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: #8b8b8b;
+    border-left: 10px solid #cac5d3;
+}
+
+.blog-main-text .smallquote p{
+    margin-left: 20px;
+    font-style: oblique;
+}
+
+.blog-main-text .smallquote cite{
+    margin-left: 30px;
+    color: #a799c0;
+}
+
+.blog-main-text ul{
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.blog-main-text ul li::before{
+    content: "\2022";
+    color: #a799c0;
+    margin: 1em;
+}
+
+.blog-main-text ul li{
+    text-indent: -2.35em;
+    padding-left: 3em;
+}
+
+.center-block {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+ }
+
+ ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    margin: 30px;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+    margin-bottom: 10px;
+  }
+  ol li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: #a799c0;
+    font-weight: bold;
+  }
+
+  ol b{
+    color: #8a7da1;
+  }
+  
