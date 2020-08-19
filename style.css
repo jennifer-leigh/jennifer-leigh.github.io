@@ -2994,19 +2994,19 @@ body.new_version .footer-links a:hover{
     color: #a799c0;
 }
 
-.blog-main-text ul{
+.blog-article ul{
     list-style: none;
     margin-bottom: 20px;
     margin-top: 20px;
 }
 
-.blog-main-text ul li::before{
+.blog-article ul li::before{
     content: "\2022";
     color: #a799c0;
     margin: 1em;
 }
 
-.blog-main-text ul li{
+.blog-article ul li{
     text-indent: -2.35em;
     padding-left: 3em;
 }
@@ -3038,6 +3038,10 @@ body.new_version .footer-links a:hover{
   ol b{
     color: #8a7da1;
   }
+
+  ul b{
+    color: #8a7da1;
+  }
   
   .blog-main-text .center-block {
     display: block;
@@ -3055,4 +3059,20 @@ body.new_version .footer-links a:hover{
 
  .blog-main-text img{
      margin: 10px;
+ }
+
+ .blog-main-text a{
+     color: #a799c0;
+ }
+
+ .blog-main-text a:hover{
+     color: #ff9853;
+ }
+
+ .new-row{
+     display: flex;
+ }
+
+ .new-column{
+     flex: 50%;
  }
