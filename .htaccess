@@ -4,7 +4,7 @@ DirectoryIndex index.html
 
 RewriteEngine on
 
-RewriteRule ^index\.html$ / [R=301,L]
+RewriteRule ^index\.html$ [R=301,L]
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.html [NC,L]
