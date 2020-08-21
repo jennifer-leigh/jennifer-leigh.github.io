@@ -9,4 +9,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule (.*) /index.html/$1 [L]
 
-Redirect 301 "/index" "https://pastelinspire.com"
+Redirect 301 "/index.html" "https://pastelinspire.com"
