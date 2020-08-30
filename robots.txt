@@ -1,0 +1,11 @@
+Sitemap: https://pastelinspire.com/sitemap.xml
+
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.jpeg$
+Disallow: /*.jpg2$
+Disallow: /*.png$
+Disallow: /*.pdf$
+Disallow: /*.gif$
+Disallow: /*.zip$
+Disallow: /*.exe$
