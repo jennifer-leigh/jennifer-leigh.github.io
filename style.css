@@ -3076,3 +3076,15 @@ body.new_version .footer-links a:hover{
  .new-column{
      flex: 50%;
  }
+
+ .blog-main-text .blog-IGA-interview h1{
+     color: #8a7da1;
+     font-size: 20px;
+     margin-block-start: 1em;
+ }
+
+ .blog-main-text figcaption{
+     margin-top: -1.5em;
+     color: darkgray;
+     text-align: center;
+ }
